@@ -49,7 +49,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebAPIFluentRoutes.csproj">
+    <ProjectReference Include="..\WebAPIFluentRoutes\WebAPIFluentRoutes.csproj">
       <Project>{e31bd5db-9ea2-411a-a6d7-cb24b05e2e55}</Project>
       <Name>WebAPIFluentRoutes</Name>
     </ProjectReference>

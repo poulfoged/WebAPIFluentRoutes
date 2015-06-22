@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes", "WebAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes.WebDummy", "..\WebAPIFluentRoutes.WebTest\WebAPIFluentRoutes.WebDummy.csproj", "{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes.Tests", "WebAPIFluentRoutes.Tests\WebAPIFluentRoutes.Tests.csproj", "{83550CE7-8968-4D7A-AC90-4660904DFBAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes.Tests", "..\WebAPIFluentRoutes.Tests\WebAPIFluentRoutes.Tests.csproj", "{83550CE7-8968-4D7A-AC90-4660904DFBAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
