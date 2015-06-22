@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes", "WebAPIFluentRoutes.csproj", "{E31BD5DB-9EA2-411A-A6D7-CB24B05E2E55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes", "WebAPIFluentRoutes\WebAPIFluentRoutes.csproj", "{E31BD5DB-9EA2-411A-A6D7-CB24B05E2E55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes.WebDummy", "..\WebAPIFluentRoutes.WebTest\WebAPIFluentRoutes.WebDummy.csproj", "{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes.Tests", "WebAPIFluentRoutes.Tests\WebAPIFluentRoutes.Tests.csproj", "{83550CE7-8968-4D7A-AC90-4660904DFBAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes.Tests", "..\WebAPIFluentRoutes.Tests\WebAPIFluentRoutes.Tests.csproj", "{83550CE7-8968-4D7A-AC90-4660904DFBAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIFluentRoutes.WebDummy", "WebAPIFluentRoutes.WebTest\WebAPIFluentRoutes.WebDummy.csproj", "{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{E31BD5DB-9EA2-411A-A6D7-CB24B05E2E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E31BD5DB-9EA2-411A-A6D7-CB24B05E2E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E31BD5DB-9EA2-411A-A6D7-CB24B05E2E55}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{83550CE7-8968-4D7A-AC90-4660904DFBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{83550CE7-8968-4D7A-AC90-4660904DFBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83550CE7-8968-4D7A-AC90-4660904DFBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83550CE7-8968-4D7A-AC90-4660904DFBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D94F67F-B1D7-4F2C-A738-172EA4516DD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
