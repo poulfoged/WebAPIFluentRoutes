@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WebAPIFluentRoutes</id>
+    <version>1.0.0</version>
+    <title>WebAPI Fluent Routes</title>
+    <authors>Monzoom (Poul Foged)</authors>
+    <owners>Monzoom (Poul Foged)</owners>
+    <projectUrl>https://github.com/poulfoged/WebAPIFluentRoutes</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/poulfoged/WebAPIFluentRoutes/master/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Finds routes in WebAPI without magic strings using lambda expressions.</description>
+    <copyright>Copyright 2015</copyright>
+    <tags>webapi, routing, route, lambda, controller, controllercontext</tags>
+  </metadata>
+</package>
