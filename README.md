@@ -1,4 +1,6 @@
-# WebAPIFluentRoutes
+![](https://raw.githubusercontent.com/poulfoged/WebAPIFluentRoutes/master/logo-large.png)
+
+# WebAPI Fluent Routes
 Finds routes in WebAPI without magic strings using lambda expressions 
 
 ## Example
