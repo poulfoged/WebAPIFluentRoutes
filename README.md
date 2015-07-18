@@ -31,4 +31,4 @@ You'll need .NET Framework 4.5.2 or later to use the precompiled binaries.
 
 ## License
 
-UriExtend is under the MIT license.
+WebAPIFluentRoutes is under the MIT license.
