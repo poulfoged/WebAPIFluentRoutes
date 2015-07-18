@@ -15,6 +15,8 @@ namespace WebAPIFluentRoutes
     /// </summary>
     public class RouteFinder : IRouteFinder
     {
+        internal const string HttpRouteKey = "httproute";
+
         public Uri Link<T>(HttpControllerContext context, Expression<Action<T>> method, object parameters)
         {
             var invocationInfo = GetInvocation(method);
@@ -33,8 +35,8 @@ namespace WebAPIFluentRoutes
 
             var routeValues = new HttpRouteValueDictionary(parameters);
 
-            if (!routeValues.ContainsKey(HttpRoute.HttpRouteKey))
-                routeValues.Add(HttpRoute.HttpRouteKey, true);
+            if (!routeValues.ContainsKey(HttpRouteKey))
+                routeValues.Add(HttpRouteKey, true);
 
             var virtualPath = route.GetVirtualPath(context.Request, routeValues);
 
@@ -58,8 +60,9 @@ namespace WebAPIFluentRoutes
 
             var routeValues = invocationInfo.ParameterValues;
 
-            if (!routeValues.ContainsKey(HttpRoute.HttpRouteKey))
-                routeValues.Add(HttpRoute.HttpRouteKey, true);
+
+            if (!routeValues.ContainsKey(HttpRouteKey))
+                routeValues.Add(HttpRouteKey, true);
 
             var virtualPath = route.GetVirtualPath(context.Request, routeValues);
 
